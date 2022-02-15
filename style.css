@@ -1,0 +1,1468 @@
+
+body{
+    height: 2100px;
+    width: 1903px;
+    margin:0;
+}
+.textinboxbr{
+    position: absolute;
+    top: 57px;
+    right: 213px;
+}
+.youadded{
+    opacity:0%;
+    background: #5338388a;
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 2100px;
+    position: absolute;
+    }
+    .apparebox{
+    border-radius: 5px;
+    background-color: #858587d9;
+    position: sticky;
+    top: 24%;
+    width: 624px;
+    height: 200px;
+    }
+    .textinbox{
+    left: 16px;
+    font-size: 28px;
+    color: #F2F2F2;
+    position: absolute;
+    top: 28px;
+    }
+    .closeadd{
+      font-size: 30px;
+      position: absolute;
+      bottom: 10px;
+      right: 42%;
+      background-image: none;
+      color: #F2F2F2;
+      background-color: #33333300;
+      border-style: none
+    }
+    .closeadd:hover{
+      color: rgb(53, 53, 53);
+    }
+
+
+.header{
+    position:-webkit-sticky;
+    position: sticky;
+    width: 100%;
+    height: 40px;
+    left: 0%;
+    top: 0%;
+    z-index: 10011;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    position: absolute;
+    left: 13.8%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 16px;
+    letter-spacing: 1;
+    text-transform: uppercase;
+    color: #000000;
+    top: -8px;
+}
+
+.icon1{
+padding: 0 10;
+}
+
+
+.navigationmenu{
+ width: 100%;
+height: 40px ;
+display: flex;
+flex-direction: row;
+ justify-content: flex-end;
+  align-items: center;
+    
+}
+.octain{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 140px;
+    position: absolute;
+    right: 13.5%;
+    top: 19%;
+}
+.pirveliconteineri{
+    position: absolute;
+width: 1385px;
+height: 880px;
+left: 269px;
+top: 64px;
+}
+
+.marjvena{
+    position: absolute;
+width: 686px;
+height: 880px;
+left: 699px;
+top: 0px;
+
+}
+.marjvena1{
+    position: absolute;
+width: 686px;
+height: 136px;
+left: 0px;
+top: 0px;
+}
+.marjvena2{
+    position: absolute;
+width: 686px;
+height: 96px;
+left: 0px;
+top: 136px;
+}
+.marjvena3{
+    position: absolute;
+width: 686px;
+height: 360px;
+left: 0px;
+top: 232px;
+}
+.marjvena4{
+    position: absolute;
+width: 686px;
+height: 0px;
+left: 701px;
+top: 467px;
+border: 0.5px solid #C4C4C4;
+
+}
+.marjvena5{
+    position: absolute;
+width: 686px;
+height: 132px;
+left: 0px;
+top: 469px;
+}
+.marjvena11{
+    position: absolute;
+width: 549px;
+height: 32px;
+left: 20px;
+top: 20px;
+
+}
+.marjvena111{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 193px;
+    height: 24px;
+    left: -2px;
+    top: 0;
+    font-size: 22px;
+
+}.marjvena12{
+    position: absolute;
+width: 198px;
+height: 28px;
+left: 20px;
+top: 52px;
+
+}
+.marjvena122{
+    font-size: 13px;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    color: #828282;
+    flex-grow: 0;
+}
+.marjvena13{
+    position: absolute;
+width: 315px;
+height: 36px;
+left: 20px;
+top: 80px;
+}
+.marjvena133{
+    position: absolute;
+width: 239px;
+height: 24px;
+left: 0px;
+top: 8px;
+}
+.otzivi{
+
+position: absolute;
+width: 57px;
+height: 20px;
+left: -1px;
+top: -15px;
+font-size: 17;
+}
+
+.rate {
+    position: absolute;
+    width: 67px;
+    height: 23px;
+    left: 63px;
+    top: 4px;
+    z-index: 1;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:12px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ 
+label {
+    color: black;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ 
+label {
+    color: black;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ 
+label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ 
+label,
+.rate > label:hover ~ input:checked ~
+label {
+    color: black;
+}
+
+.marjvena14{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 86px;
+    height: 17px;
+    left: 132px;
+    top: 1px;
+
+}
+.marjvena14text{
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    color: #333333;
+    flex: none;
+    margin: 0px 1px;
+}
+.marjvenaisari{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 215px;
+top: 1px;
+}
+.marjvena2{
+    position: absolute;
+    width: 659px;
+    height: 96px;
+    left: -28px;
+    top: 57px;
+
+}
+.marjvena21{
+    position: absolute;
+width: 198px;
+height: 72px;
+left: 40px;
+top: 93px;
+}
+.pasi{
+flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+}
+.rubl1{
+    position: absolute;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: #333333;
+    flex: none;
+   left: 61;
+   top: 0;
+}
+.rubl2{
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #828282;
+    margin: 0px 10px;
+    position: absolute;
+    width: 51px;
+    left: 123px;
+    top: 10px;
+}
+.zustipasi{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: #333333;
+    flex: none;
+    position: absolute;
+    margin: 0px 14px;
+    left: -5;
+}
+
+.pasdaklebamde{
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    text-decoration-line: line-through;
+    color: #828282;
+    margin: 0px 10px;
+    display: flex;
+    position: absolute;
+    width: 51px;
+    left: 78px;
+    top: 10px;
+}
+.marjvenaisari2{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 148px;
+top: 7px;
+}
+.sale{
+    display: flex;
+    position: absolute;
+    width: 92px;
+    height: 24px;
+    left: 7px;
+    top: 43px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.sale:hover{
+    background-color: rgb(53, 53, 53);
+    color: #F2F2F2;
+}
+.pasdakleba:hover{
+    background-color: rgb(53, 53, 53);
+    color: #F2F2F2;
+}
+.sale1{
+    font-size: 13px;
+    display: flex;
+    flex-grow: 0;
+    margin: 5px 10px;
+}
+
+.pasdakleba{
+    display: flex;
+    position: absolute;
+    width: 87px;
+    height: 24px;
+    left: 108px;
+    top: 43px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.pasdaklleba1{
+    font-size: 13px;
+    display: flex;
+    flex-grow: 0;
+    margin: 5px 10px;
+}
+
+.marjvena3zoma{
+    position: absolute;
+width: 315px;
+height: 91px;
+left: 39px;
+top: 75px;
+
+}
+
+.selcls{
+   background-image:url(img\Frame.png);
+   background-repeat: no-repeat;
+   background-position: 96% 50%;
+    text-indent: 12px;
+    -webkit-appearance: none;
+    font-size: 16;
+    position: absolute;
+   width: 315px;
+   height: 44px;
+   left: -19px;
+   top: -58px;
+   border: 1px solid #333333;
+}
+
+.arrowdown{
+position: absolute;
+width: 24px;
+height: 24px;
+right: 8px;
+top: 10px;
+}
+
+.zomisgageba{
+    position: absolute;
+    width: 148px;
+    height: 28px;
+    left: -20px;
+    top: -4px;
+}
+.zomislinki{
+    font-size: 18px;
+    color: #333333;
+}
+
+.raodenoba{
+    position: absolute;
+width: 408px;
+height: 91px;
+left: 20px;
+top: 112px;
+z-index: 1;
+
+}
+.background{
+    position: absolute;
+width: 145px;
+height: 44px;
+background: #F2F2F2;
+z-index: -2;
+}
+.plusi{
+    background: none;
+    position: absolute;
+    color: #333333;
+    margin: 0px 10px;
+    top: 14px;
+    left: 4px;
+    z-index: 10;
+}
+.raodenoba1{
+    align-items: center;
+    display: felx;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+z-index: -1;
+
+position: absolute;
+width: 9px;
+height: 20px;
+left: 69px;
+top: 12px;
+}
+.gilaki{
+    position: absolute;
+width: 145px;
+height: 44px;
+left: 0px;
+top: 21px;
+}
+.iconplus{
+  border: none;
+}
+
+.minusi{
+    background: none;
+position: absolute;
+left: 105px; 
+top: 12px;
+font-size: 17px;
+border: none;
+z-index: 10;
+width: 33;
+}
+.damateba{
+    border: none;
+position: absolute;
+width: 203px;
+height: 44px;
+left: 157px;
+top: 21;
+background-color:#333333 ;
+font-size: 15px;
+letter-spacing: 00.04em;
+color: #FFFFFF;
+text-align: center;
+z-index: 1000;
+}
+.damateba:hover{
+    background-image: none;
+    background-color: rgb(128, 126, 126);
+    color: rgb(53, 53, 53);
+
+}
+.favorite{
+position: absolute;
+width: 44px;
+height: 44px;
+right: 0;
+top: 21;
+background-color:#333333 ;
+border: none;
+
+background-image: url(img\Group13.png);
+background-repeat: no-repeat;
+background-size: 36%;
+background-position: center;
+}
+.favorite:hover{
+    background-color: rgb(128, 126, 126);
+    color: rgb(53, 53, 53);
+}
+.oneclickbuy{
+    position: relative;
+    font-size: 18px;
+    color: #333333;
+    top: 76;
+}
+.line{
+    position: absolute;
+    width: 686px;
+    height: 0px;
+    top: 236;
+    left: 0;
+    border: 0.5px solid #C4C4C4;
+}
+.marjvena4{
+justify-content: left;
+display: flex;
+flex-direction: column;
+inline-size: 10px;
+position:absolute;
+width: 686px;
+height: 132px;
+left: 0px;
+top: 469px;
+border: none;
+}
+.description{
+    width: 150px;
+    position: relative;
+    left: 22;
+    top: 26;
+    font-size: 14;
+    letter-spacing:1.7;
+    color: #333333;
+    background-image: url(img/shirt.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+.delivery{
+    position: relative;
+    left: 20;
+    top : 43;
+    font-size: 14;
+    letter-spacing:1.7;
+    width: 171;
+    background-image: url(img/clock.png);
+    background-repeat: no-repeat;
+    background-position: 1px;
+    color: #333333;
+    text-decoration: none;
+}
+.pay{
+    position: relative;
+    left: 20;
+    top: 59;
+    font-size: 14;
+    letter-spacing:1.7;
+    width: 151;
+    background-image: url(img/paypay.png);
+    background-repeat: no-repeat;
+    color: #333333;
+    text-decoration: none;
+    background-position-y: -2px;
+}
+.marcxena{
+    position: absolute;
+    width: 686px;
+    height: 878px;
+    left: -3px;
+    top: 2px;
+    z-index: 1;
+    }
+.mainphoto{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+.anotherphoto{
+
+    left: 24;
+    top: 25px;
+    position:absolute;
+    width: 70px;
+    height: 483px;
+    display: block;
+
+}
+.boyphoto{
+opacity: 0.6;
+width: 70px;
+height: 91px;
+margin-bottom: 7;
+}
+.boyphoto:hover{
+opacity: 1;
+    }
+.girlphoto{
+    opacity: 0.6;
+    width: 70px;
+    height: 91px;
+    margin-bottom: 7;
+}
+.girlphoto:hover{
+opacity: 1;
+}
+.menuclick{
+    display: none;
+    width: 100%;
+    top: 26;
+    height: 300;
+}
+.girlbackphoto{
+ opacity: 0.6;
+width: 70px;
+height: 91px;  
+margin-bottom: 7;
+}
+.girlbackphoto:hover{
+   opacity: 1;
+}
+.itemfrontphoto{
+width: 70px;
+opacity: 0.6;
+height: 91px;
+margin-bottom: 7;
+}
+.itemfrontphoto:hover{
+    opacity: 1;
+}
+.itembackphoto{
+    opacity: 0.6;
+    width: 70px;
+    height: 91;
+}
+.itembackphoto:hover{
+    opacity: 1;
+}
+.bottom{
+    position: absolute;
+    width: 1388px;
+    height: 688px;
+    left: 266px;
+    top: 976px;
+}
+.row1{
+    text-align: center;
+    width: 1388;
+    height: 20px; ;
+}
+.allstyle{
+    position: absolute;
+    color: #4b4b4b;
+    width: 162px;
+    height: 20px;
+    left: 613px;
+    top: 2px;
+    letter-spacing: 0.5;
+}
+.bottomphoto{
+    width: 1388px;
+    height: 688px;
+    top: 53;
+    left: 300px ;
+    position: absolute;
+}
+.toygirl{ 
+opacity: 1;
+position: absolute;
+width: 687px;
+height: 689px;
+z-index: 1;
+}
+.backgroundtoy{
+    width: 687px;
+    height: 689px;
+    position: absolute;
+    background-color: transparent;
+  opacity: 0;
+}
+
+.girl2{
+    position: absolute;
+    width: 336px;
+    height: 336;
+    left: 702px;
+}
+.backgroundgirl2{
+    position: absolute;
+    width: 336px;
+    height: 336;
+    opacity: 0;
+
+}
+.bear{
+    position: absolute;
+    width: 336px;
+    height: 336px;
+    left: 1052px;
+    
+}
+.backgroundbear{
+    position: absolute;
+    width: 336px;
+    height: 336px;
+    opacity: 0;
+
+}
+.lilboy{
+    position: absolute;
+    width: 336px;
+    height: 336px;
+    left: 702;
+    top: 352px;
+}
+.backgroundlilboy{
+    position: absolute;
+    width: 336px;
+    height: 336px;
+    opacity: 0;
+
+}
+.boy1{
+    position: absolute;
+    width: 336px;
+    height: 336px;
+    left: 1053;
+    top: 353;
+}
+.backgroundboy1{
+    position: absolute;
+    width: 336px;
+    height: 336px;
+    opacity: 0;
+
+}
+.footer{
+position: absolute;
+width: 1440px;
+height: 184px;
+left: 240px;
+top: 1846px;
+}
+.forbuy{
+    display: flex;
+    flex-direction: column;
+position: absolute;
+width: 335px;
+height: 148px;
+left: 143px;
+top: 0px;
+}
+.pokupatelyam{
+    text-decoration: none;
+    position: absolute;
+    align-items: center;
+    width: 126px;
+    height: 24px;
+    top: 13px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.38;
+    text-transform: uppercase;
+    color: #333333;
+}
+.footer1block{
+    text-decoration: none;
+    position: relative;
+    top: 53px;
+    margin-bottom: 11;
+    width: 60px;
+    height: 18px;
+    color: #4b4b4b;
+    letter-spacing: 0.6;
+}
+.aboutus{
+    display: flex;
+    flex-direction: column;
+position: absolute;
+width: 335px;
+height: 156px;
+left: 494px;
+top: 0px;
+
+}
+.aboutusp{
+position: absolute;
+width: 335px;
+height: 48px;
+left: 0px;
+top: 0px;
+
+}
+
+.aboutuspp{
+text-decoration: none;
+position: absolute;
+color: #333333;
+width: 58;
+height: 20px;
+color:#4b4b4b ;
+top: 15px;
+letter-spacing: 0.5;
+font-size: 17;
+}
+
+.aboutusblock{
+    text-decoration: none;
+    position: relative;
+    top: 53px;
+    margin-bottom: 11;
+    width: 89;
+    height: 18px;
+    color: #4b4b4b;
+    letter-spacing: 0.6;
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 455px;
+    height: 184px;
+    left: 844px;
+    top: 2px;
+}
+.uznaitepervim{
+    position: absolute;
+    top: 14;
+    letter-spacing: 0.5;
+}
+.inputemail{
+   
+    position: absolute;
+    top: 69;
+    font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:454;
+  border:none;
+  border-bottom:1px solid #757575;
+} 
+::placeholder {
+font-size: 14;
+position:absolute ;
+letter-spacing: 1;
+bottom: 12;
+left:16;
+}
+.inputemail:focus{
+    outline: none;
+}
+.removebutton{
+    position: absolute;
+    top: 83px;
+    right: 7px;
+    border: none;
+    z-index: 1;
+    background: none;
+}
+.subscribebutton{
+position:absolute;
+bottom: 2;
+right: 2;
+width: 150px;
+height: 36px;
+border: 1px solid #333333;
+box-sizing: border-box;
+}
+.subscribebutton:hover
+{
+background-image:none;
+color: #F2F2F2;
+background-color:#333333;
+}
+.iconmenu{
+    display: none;
+    padding: 0 10;
+}
+@media  screen and (max-width:2560px){
+    .pirveliconteineri{
+        left: 27%;
+        }
+
+body{
+    width: inherit;
+}
+.youadded{
+    width: -webkit-fill-available;
+}
+}
+@media  screen and (max-width:1490px){
+    .pirveliconteineri{
+    left: 27%;
+    }
+    body{
+        width: 100%;
+    }
+        .header{
+            width: 1761;
+        }
+
+    }
+    
+    body{
+        position: absolute;
+    width: 100%;
+    }
+    .bottom{
+        left: 25;
+    }
+    .footer{
+        width: 1400;
+        left: 25;
+    }
+
+@media  screen and (max-width:1390px){
+.header{
+    width: 1425;
+}
+    body{
+        position: absolute;
+    width: 100%;
+    }
+    .bottomphoto{
+        left: 0;
+    }
+    .pirveliconteineri{
+        left: 25;
+    }
+    .bottom{
+        left: 25;
+    }
+    .footer{
+        width: 1400;
+        left: 25;
+    }
+}
+@media screen and (min-device-width: 320px)  and (max-device-width: 425px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    body{
+        width: 171%;
+        position: absolute;
+    }
+    .header{
+        height: 6%;
+    }
+    
+    .iconmenu{
+        padding: 0 10;
+        display: table;
+        width: 80%;
+
+    }
+.headerions{
+    width: 80px;
+}
+    .iconmenuimg{
+        width: 80px;
+    }
+    .octain{
+        right: 18%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        top: 13%;
+    }
+    .logo{
+        position: none;
+        font-size: 70px;
+        left: 7%;
+        top: -22;
+    }
+    .navigationmenu{
+        height: 100%;
+    }
+    .anotherphoto{
+        width: 7.7%;
+        height: 59%;
+    }
+    .boyphoto,.girlphoto,.girlbackphoto,.itemfrontphoto,.itembackphoto{
+        width: 100%;
+        height: 18%;
+    }
+    .pirveliconteineri{
+        width: 100%;
+        left: 0;
+        top: 5%;
+    }
+ .bottom{
+     width: 100%;
+     left: 0;
+     top: 4000px;
+ }
+    .footer{
+        height: 840;
+        width: 100%;
+        left: 0;
+        top: 7700;
+    }
+    .row1{
+        width: 100%;
+    }
+    .bear{
+        width: 47%;
+        height: 800;
+        left: 840;
+        top: 1700;
+
+    }
+    .boy1{
+        width: 47%;
+        height: 800;
+        left: 840;
+        top: 2525;
+    }
+    .suratebi{
+        width: 100%;
+        height: 100%;
+    }
+    .toygirl{
+        width: 100%;
+        height: 1684;
+    }
+    .backgroundbear,.backgroundboy1,.backgroundgirl2,.backgroundlilboy,.backgroundtoy{
+        width: 100%;
+        height: 100%;
+    }
+    .lilboy{
+        height: 800;
+        width: 46%;
+        left: 20;
+        top: 2525;
+    }
+    .girl2{
+        top: 1700;
+        left: 20;
+        width: 47%;
+        height: 800;
+    }
+    .bottomphoto{
+        top: 250;
+        left: 0;
+
+    }
+    .allstyle{
+        position: unset;
+        left: 0;
+        font-size: 60;
+    }
+    .bottomphoto{
+        width: 100%;
+    }
+   .toygirlphoto{
+       height: 1686;
+        width: 100%;
+    }
+    .backgroundtoy{
+        width: 100%;
+        height: 100%;
+    }
+.marcxena{
+    left: 0;
+    height: 200%;
+    width: 100%;
+    top: 26;
+}
+
+ .marjvena{
+     width: 100%;
+     left: 0;
+     top: 1788;
+ }
+.marjvena1{
+    top: 0;
+    font-size: 60px;
+    align-items: none;
+    width: 100%;
+}
+.marjvena12{
+    position: absolute;
+    width: 100%;
+    height: 28px;
+    left: 20px;
+    top: 182px;
+}
+.marjvena11{
+    width: 100%;
+}
+.marjvena111{
+    top: 0;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 100px;
+}
+.marjvena122{
+    font-size: 56px;
+}
+.marjvena13{
+    position: absolute;
+    width: 60%;
+    height: 50px;
+    left: 20px;
+    top: 272;
+}
+.mrajvena133{
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 8px;
+}
+.otzivi{
+    width: 57px;
+    height: 20px;
+    left: -1px;
+    top: -107px;
+    font-size: 80px;
+}
+.rate:not(:checked) > label{
+    font-size: 66px;
+}
+.rate{
+    position: absolute;
+    width: 139%;
+    height: 23px;
+    left: 306px;
+    top: -22;
+    z-index: 1;
+}
+.marjvena14 {
+    left: 663;
+    top: 12px;
+}
+.marjvena14text{
+    font-size: 60;
+}
+.marjvenaisari {
+    left: 404%;
+    top: -14px;
+
+}
+.isarimarjvena{
+    width: 90;
+    height: 90;
+}
+.marjvena21{
+    position: absolute;
+    width: 132%;
+    height: 280px;
+    left: 40px;
+    top: 377px;
+
+}
+.satrsrate{
+    font-size: 66px;
+}
+.zustipasi{
+    font-weight: bold;
+    font-size: 112px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: #333333;
+    flex: none;
+    position: absolute;
+    margin: 0px 14px;
+    left: -5;
+}
+.rubl1{
+    position: absolute;
+    font-weight: bold;
+    font-size: 112;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: #333333;
+    flex: none;
+    left: 200;
+    top: 0;
+}
+.pasdaklebamde{
+    font-size: 81px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    text-decoration-line: line-through;
+    color: #828282;
+    margin: 0px 10px;
+    display: flex;
+    position: absolute;
+    width: 32%;
+    left: 300;
+    top: 10px;
+}
+.sale{
+    display: flex;
+    position: absolute;
+    width: 33%;
+    height: 100;
+    left: 7px;
+    top: 120px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+}
+.sale1{
+    margin: 5 31;
+line-height: 2;
+font-size: 42;
+}
+.pasdakleba{
+    top: 120;
+    width: 33%;
+    height: 100;
+    left: 340;
+}
+.pasdaklleba1{
+    margin: 5 31;
+    line-height: 2;
+    font-size: 42;
+}
+.marjvenaisari2{
+    left: 600;
+   top: -20;
+}
+.isarimarjvena1{
+    width: 90;
+    height: 90;
+}
+.rubl2{
+    font-size: 81;
+    left: 530;
+}
+ .rate.lable{
+font-size: 27;
+ }
+ .line{
+     top: 900;
+     width: 100%;
+ }
+ .marjvena3zoma{
+    position: absolute;
+    width: 80%;
+    height: 91px;
+    left: 0;
+    top: 75px;
+ }
+ .marjvena4{
+     top: 1700;
+     width: 60%;
+     height: 350;
+ }
+ 
+ .description{
+     background-size: contain;
+     width: 45%;
+     font-size: 50;
+ }
+ .delivery{
+    background-size: contain;
+     width: 51%;
+     font-size: 50;
+     
+ }
+ .pay{
+    background-size: contain;
+     width: 47%;
+     font-size: 50;
+ }
+ .selcls{
+     text-align: center;
+     height: 125%;
+     width: 100%;
+     left: 13;
+     font-size: 50;
+ }
+ .oneclickbuy{
+     font-size: 55;
+     top: 430;
+ }
+ .marjvena3{
+     height:70% ;
+     width: 100%;
+     top: 700px;
+ }
+ .zomisgageba{
+     top: 100;
+     width: 413;
+     height: 58;
+     left: 40;
+ }
+ .zomislinki{
+     font-size: 50;
+ }
+ .gilaki{
+     top: 0;
+     width: 50%;
+ }
+ .raodenoba{
+     top: 350px;
+     width: 60%;
+     height: 220;
+ }
+ .favorite{
+    width: 160;
+    height: 160;
+    right: 10px;
+    top: 200;
+ }
+ .background{
+     width: 500;
+     height: 160;
+
+ }
+.plusi{
+    top: 22;
+    left: 30;
+}
+.minusi{
+    font-size: 110px;
+    left: 394px;
+    top: 5px;
+}
+.raodenoba1{
+    font-size: 100;
+    left: 220;
+    top: 65px;
+}
+ .iconplus{
+
+     font-size: 100;
+ }
+ .damateba{
+     font-size: 50;
+     left: 0;
+     top: 200;
+     width: 800;
+     height: 160;
+ }
+ .forbuy{
+     left: 20;
+     width: 40%;
+ }
+ .pokupatelyam{
+     font-size: 80;
+ }
+ .footer1block{
+     font-size: 50;
+     margin-bottom: 82px;
+     top: 90px;
+ }
+ .aboutuspp{
+     font-size: 80;
+     width: 100%;
+
+ }
+ .aboutus{
+     top: -19;
+     width: 40%;
+     left: 840;
+ }
+ .aboutusblock{
+     font-size: 50;
+     margin-bottom: 82px;
+     top: 130px;
+     width: 50%;
+ }
+ .uznaitepervim{
+     font-size: 60;
+     width: 100%;
+ }
+ .email{
+     
+     width: 50%;
+left: 20;
+top: 400;
+ }
+ .inputemail{
+    width: 175%;
+    top: 180;
+    height: 100;
+ }
+ .menumenu{
+     left: 30;
+     text-decoration: none;
+     font-size: 75;
+     color: black;
+ }
+ .menubutton{
+    position: absolute;
+    right: 50px;
+    height: 70;
+    width: 70;
+    background-color: transparent;
+    top: 40px;
+    font-size: 70;
+    border: none;
+ }
+ .menuclick{
+   display: none;
+     background-color: #C4C4C4;
+     position: absolute;
+     height: 800;
+     width: 101%;
+  top: 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+ .removebutton{
+     top: 225px;
+     right:-600;
+ }
+ .xic{
+     width: 40;
+     height: 40;
+ }
+ .subscribebutton{
+     width: 350;
+     right: -600;
+     top: 300;
+     font-size: 40;
+     height: 100;
+ }
+ .inputemail::placeholder{
+     font-size: 30;
+ }
+}
